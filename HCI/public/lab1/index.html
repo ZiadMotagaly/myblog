@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Lab1  &middot; My HCI Site</title>
+  <meta name="description" content="" />
+  <link href="http://example.org/css/katex.min.css" rel="stylesheet">
+  
+  
+  
+  
+  <link href="http://example.org/css/concated.min.css" rel="stylesheet">
+  
+  
+</head>
+
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="http://example.org" class="nav-text">My HCI Site</a></h1>
+  <div class="hamburger-menu">
+    <input class="hamburger-menu-button" type="checkbox"
+      onclick="hamburgerMenuPressed.call(this)"
+      aria-label="Hamburger Menu Button"
+    >
+    <div class="hamburger-menu-icon">
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="http://example.org" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+          <h1 class="post-title">Lab1</h1>
+          <p class="post-date">Posted <time datetime="2023-01-29">Jan 29, 2023</time></p>
+        </header>
+        
+        
+        
+<h2>
+HCI (PC)
+</h2>
+
+<p>
+	In this Lab, I designed a game called Roll- A -Maze , where the user neads to 
+	control the ball using Keyboard Inputs , to navigate through the maze and collect 
+	points to win the game. 
+	
+	The arrow keys move the ball in their respective directions, and the space key 
+	makes the ball jump.
+	
+
+</p>
+
+
+<img src="/playboard.png" width="819" height="393" alt="Playboard">
+
+<p>
+
+	The User needs to collect the green cubes to increment the counter by 1.
+	However it is not that easy. The orange cubes deduce the count by 1.
+	Some of the cubes are set higher than the ball, so the user needs to 
+	jump. However, the bounciness of the ball is set to make it challenging for 
+	the user to control the ball while jumping, leading him/her to make mistakes.
+
+</p>
+
+<img src="/main_camera.png" width="815" height="378" alt="Main Camera">
+
+<p>
+	Scripts are the main driver of the game. There are scripts to control the ball, the rotation of the collectibles, and even the camera movement to follow the ball through the maze.
+	</p>
+	
+	<p>To win the game you need to collect all 5 green collectibles.
+	
+	The following video shows a walkthrough of winning Roll- A -Maze.
+	
+</p>
+
+
+
+<video width="640" height="360" controls>
+	<source src="/HCI Lab1.mp4" type="video/mp4">
+
+	<p>Your browser doesn't support HTML5 video. Here is
+		a <a href="../static/HCI Lab1.mp4">link to the video</a> instead.</p>
+</video>
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="http://example.org/lab2/" class="card blog-card bc-next" rel="bookmark" >
+  
+  <article class="card-body">
+    <h2 class="card-title">Lab2</h2>
+    <p class="card-text">HCI (Android)   In this Lab, I deployed the Roll- A -Maze game that we created in Lab 1 , on an Android smartphone. This is done through Unity as well, by modifying the Build and Player settings. The main difference is that our input will now be set to the controls embedded in modern smart phones. I implemented both a Gyroscope and an Acceloremeter into the Input settings of the ball.</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2023-01-29">Jan 29, 2023</time></p>
+      
+    </div>
+  </article>
+</a>
+      
+    </nav>
+    <footer class="side-padding" style="background-image: url('http://example.org/img/home-blob-flip.svg');">
+    <a href="http://example.org" class="footer-link">
+    
+        <img class="footer-icon" src="http://example.org/icons/home.svg" alt="Home">
+    
+    </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</footer>
+    
+  <script defer src="http://example.org/js/katex.min.js"></script>
+
+
+  <script defer src="http://example.org/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+
+<script src="http://example.org/js/core.min.js"></script>
+
+  </body>
+</html>

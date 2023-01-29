@@ -1,0 +1,48 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My HCI Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My HCI Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lab1 </title>
+      <link>http://example.org/lab1/</link>
+      <pubDate>Sun, 29 Jan 2023 17:42:34 +0100</pubDate>
+      
+      <guid>http://example.org/lab1/</guid>
+      <description>HCI (PC)   In this Lab, I designed a game called Roll- A -Maze , where the user neads to control the ball using Keyboard Inputs , to navigate through the maze and collect points to win the game. The arrow keys move the ball in their respective directions, and the space key makes the ball jump.  The User needs to collect the green cubes to increment the counter by 1.</description>
+    </item><item>
+      <title>Lab2</title>
+      <link>http://example.org/lab2/</link>
+      <pubDate>Sun, 29 Jan 2023 16:59:15 +0100</pubDate>
+      
+      <guid>http://example.org/lab2/</guid>
+      <description>HCI (Android)   In this Lab, I deployed the Roll- A -Maze game that we created in Lab 1 , on an Android smartphone. This is done through Unity as well, by modifying the Build and Player settings. The main difference is that our input will now be set to the controls embedded in modern smart phones. I implemented both a Gyroscope and an Acceloremeter into the Input settings of the ball.</description>
+    </item><item>
+      <title>Lab3</title>
+      <link>http://example.org/lab3/</link>
+      <pubDate>Sun, 29 Jan 2023 16:59:12 +0100</pubDate>
+      
+      <guid>http://example.org/lab3/</guid>
+      <description>HCI (Oculus VR Headset)   For Lab 3 , I deployed the Roll- A -Maze game that we created in Lab 1 , on an Oculus headset. In this case, we designed our own XR Hand Controller to the replace the standard Input.  A virtual reality headset is a head-mounted device that provides virtual reality for the wearer. These headsets include a stereoscopic display (providing separate images for each eye), stereo sound, and sensors like accelerometers and gyroscopes for tracking the pose of the user&#39;s head to match the orientation of the virtual camera with the user&#39;s eye positions in the real world.</description>
+    </item><item>
+      <title>About</title>
+      <link>http://example.org/meme/</link>
+      <pubDate>Sun, 29 Jan 2023 16:15:28 +0100</pubDate>
+      
+      <guid>http://example.org/meme/</guid>
+      <description>This is me:</description>
+    </item><item>
+      <title>My HCI Labs</title>
+      <link>http://example.org/post/</link>
+      <pubDate>Sun, 29 Jan 2023 16:04:40 +0100</pubDate>
+      
+      <guid>http://example.org/post/</guid>
+      <description>Introduction In this series of labs , we have delved into the Human Computer Interaction using Unity in terms of building a game where the user can interact with the main Game Object through the PC, Android Phone, and the Oculus VR Headset. The following list is linked to the blog associated with each Lab. Therefore please go through them in order. Enjoy!   Lab 1 (PC) Lab 2 (Android) Lab 3 (Oculus VR Headset)  </description>
+    </item>
+  </channel>
+</rss>

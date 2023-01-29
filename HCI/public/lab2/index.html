@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Lab2 &middot; My HCI Site</title>
+  <meta name="description" content="" />
+  <link href="http://example.org/css/katex.min.css" rel="stylesheet">
+  
+  
+  
+  
+  <link href="http://example.org/css/concated.min.css" rel="stylesheet">
+  
+  
+</head>
+
+  <body class="single-body">
+    <nav class="nav-bar side-padding">
+  <h1 class="nav-header"><a href="http://example.org" class="nav-text">My HCI Site</a></h1>
+  <div class="hamburger-menu">
+    <input class="hamburger-menu-button" type="checkbox"
+      onclick="hamburgerMenuPressed.call(this)"
+      aria-label="Hamburger Menu Button"
+    >
+    <div class="hamburger-menu-icon">
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="menu" class="hamburger-menu-overlay">
+      <li><a href="http://example.org" class="hamburger-menu-overlay-link">Home</a></li>
+      
+      
+    </ul>
+  </div>
+</nav>
+
+    <main class="content side-text-padding">
+      <article class="post dropcase">
+        <header class="post-header">
+          <h1 class="post-title">Lab2</h1>
+          <p class="post-date">Posted <time datetime="2023-01-29">Jan 29, 2023</time></p>
+        </header>
+        
+        
+        
+<h2>
+HCI (Android)
+</h2>
+
+<p>
+	In this Lab, I deployed the Roll- A -Maze game that we created in Lab 1 , on an Android smartphone. This is done through Unity as well, by modifying the Build and Player settings.
+	
+	The main difference is that our input will now be set to the controls embedded in modern smart phones. 
+	I implemented both a Gyroscope and an Acceloremeter into the Input settings of the ball. 
+
+</p>
+
+<img src="/gyro_accelero.jpg" width="1000" height="522" alt="Gyro Accelero">
+
+
+<p>
+
+	<strong> Gyroscope </strong> :senses change in orientation of a device, and when paired with an accelerometer, is an excellent tool for measuring the orientation of an object in 3D space. Gyroscopes determine angular velocity (ω) typically measured in radians/second.
+	
+	
+
+</p>
+
+<p>
+
+	<strong> Accelerometer </strong> : senses the vibration, or acceleration of motion of a structure. The force caused by vibration or a change in motion (acceleration) causes the mass to "squeeze" the piezoelectric material which produces an electrical charge that is proportional to the force exerted upon it. Since the charge is proportional to the force, and the mass is a constant, then the charge is also proportional to the acceleration.
+	
+	
+
+</p>
+
+
+
+<p>
+	A challenge here was to implement the jump function of the game. (Other than tapping on the screen which was the most natural way of making the ball jump) 
+	
+	I tried using an acceloremeter threshold, where if the ball is getting faster , it would at some point jump. However , it did not suit this game. The Playboard is too small, for it to function properly. 
+	</p>
+	
+	
+
+<video width="640" height="360"  controls>
+	<source src="/HCI Lab2.mp4" type="video/mp4">
+
+	<p>Your browser doesn't support HTML5 video. Here is
+		a <a href="../static/HCI Lab2.mp4">link to the video</a> instead.</p>
+</video>
+
+
+
+
+
+      </article>
+      
+    </main>
+    <nav class="end-nav side-padding">
+      
+      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
+  href="http://example.org/lab3/" class="card blog-card bc-next" rel="bookmark" >
+  
+  <article class="card-body">
+    <h2 class="card-title">Lab3</h2>
+    <p class="card-text">HCI (Oculus VR Headset)   For Lab 3 , I deployed the Roll- A -Maze game that we created in Lab 1 , on an Oculus headset. In this case, we designed our own XR Hand Controller to the replace the standard Input.  A virtual reality headset is a head-mounted device that provides virtual reality for the wearer. These headsets include a stereoscopic display (providing separate images for each eye), stereo sound, and sensors like accelerometers and gyroscopes for tracking the pose of the user&#39;s head to match the orientation of the virtual camera with the user&#39;s eye positions in the real world.</p>
+    <div class="card-subtext muted-text">
+      <p>Posted <time datetime="2023-01-29">Jan 29, 2023</time></p>
+      
+    </div>
+  </article>
+</a>
+      
+    </nav>
+    <footer class="side-padding" style="background-image: url('http://example.org/img/home-blob-flip.svg');">
+    <a href="http://example.org" class="footer-link">
+    
+        <img class="footer-icon" src="http://example.org/icons/home.svg" alt="Home">
+    
+    </a>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</footer>
+    
+  <script defer src="http://example.org/js/katex.min.js"></script>
+
+
+  <script defer src="http://example.org/js/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+
+<script src="http://example.org/js/core.min.js"></script>
+
+  </body>
+</html>
